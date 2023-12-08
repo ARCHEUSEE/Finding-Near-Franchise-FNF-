@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Finding Near Franchise",
+    "slug": "fnf",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo_fnf.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo_fnf.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo_fnf.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.findingnearfranchise.fnf"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e755e73c-13b7-46fe-965c-ffcc9b425d4a"
+      }
+    },
+    "owner": "zend17"
+  }
+}
